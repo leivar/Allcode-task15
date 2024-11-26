@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM exercises</title>
+    <link rel="stylesheet" href="css\main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-info">
+            <div class="title">
+                <h3>Company Name</h3>
+            </div>
+            <div>
+                <button class="menu-button">
+                    Menu
+                </button>
+            </div>
+        </div>
+        <div class="navbar-items hidden">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-container">
+        <div class="container-1">
+            <ul class="list"></ul>
+            <form class="update-list-form">
+                <input type="text" class="new-list-item">
+                <br>
+                <div class="update-list-buttons">
+                    <button class="update-list">Add to list</button>
+                    <button class="count-list">Count list</button>
+                </div>
+            </form>
+            <div class="task-content">
+                <button class="task-button">
+                    Run Task
+                </button>
+                
+                <p>
+                    <span class="completed-tasks">0</span>/<span class="total-tasks">0</span> tasks complete
+                </p>
+                <div class="progress-bar">
+                    <div class="progress-bar-filled"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-2">
+            <div class="slideshow-section">
+                <iframe width="200" height="300" class="slideshow"></iframe>
+                <div class="slideshow-buttons">
+                    <button class="slideshow-previous-button">Previous</button>
+                    <button class="slideshow-random-button">Random</button>
+                    <button class="slideshow-next-button">Next</button>
+                </div>
+            </div>
+            <div class="addition-field">
+                <form class="additon-form">
+                    <input class="addition-input addition-input-1">&nbsp;+
+                    <input class="addition-input addition-input-2">&nbsp;=
+                    <span class="addition-result">42</span>
+                </form>
+            </div>
+            <p class="dynamic-text">Bold</p>
+        </div>
+    </div>
+    <div class="api-fetch-field">
+        <table id="api-table">
+            <td>DOG BREEDS</td>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background: #56A3A6;
+    color: white;
+    padding: 15px;
+}
+
+.navbar-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-button {
+    border: none;
+    background: #C0D8E0;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar-items > ul {
+    list-style: none;
+}
+
+.navbar-items > ul > li > a,.navbar-items > ul > li > a:visited {
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-1{
+    width: 50%;
+}
+
+.container-2{
+width: 50%;
+}
+
+.list {
+    margin-top: 80px;
+    margin-left: 1rem;
+    list-style: none;
+    width: 140px;
+    border-style: groove;
+}
+
+.list > li {
+    margin-top: 2px;
+}
+
+.update-list-form{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+}
+
+.update-list-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.task-content {
+    width: 15%;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.task-button {
+    background: #56A3A6;
+    padding: 10px;
+    width: 60px;
+    margin-bottom: 1rem;
+}
+
+.slideshow-section {
+    padding: 1rem;
+}
+
+.slideshow-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 204px;
+}
+
+.dynamic-text {
+    width: 40px;
+    margin-left: 1rem;
+}
+
+.addition-input {
+    width: 20px;
+}
+
+.addition-input-1 {
+    margin-left: 1rem;
+}
+
+.addition-result {
+    width: 40px;
+}
+
+.progress-bar {
+    position: relative;
+    height: 30px;
+    background: #999;
+}
+
+.progress-bar-filled {
+    height: 30px;
+    background: orange;
+    width: 0%;
+}
+.hidden {
+    display: none;
+}
+
+.boldy {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
